@@ -1,0 +1,1 @@
+Jag har mestadels suttit och skrivit kod idag. 
