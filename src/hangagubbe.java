@@ -53,24 +53,72 @@ Antal gissningar
     public static void antalgissningar() {
         if (gissning == 1) {
             System.out.println("Fel gissning, du har 6 försök kvar");
+            System.out.println("____________");
         }
         if (gissning == 2) {
             System.out.println("Fel gissning, du har 5 försök kvar");
+            System.out.println("      |");
+            System.out.println("      |");
+            System.out.println("      |");
+            System.out.println("      |");
+            System.out.println("      |");
+            System.out.println("      |");
+            System.out.println("______|_____");
         }
         if (gissning == 3) {
             System.out.println("Fel gissning, du har 4 försök kvar");
+            System.out.println("      __________");
+            System.out.println("      |");
+            System.out.println("      |");
+            System.out.println("      |");
+            System.out.println("      |");
+            System.out.println("      |");
+            System.out.println("      |");
+            System.out.println("______|_____");
         }
         if (gissning == 4) {
             System.out.println("Fel gissning, du har 3 försök kvar");
+            System.out.println("      __________");
+            System.out.println("      |        |");
+            System.out.println("      |        |");
+            System.out.println("      |");
+            System.out.println("      |");
+            System.out.println("      |");
+            System.out.println("      |");
+            System.out.println("______|_____");
         }
         if (gissning == 5) {
             System.out.println("Fel gissning, du har 2 försök kvar");
+            System.out.println("      __________");
+            System.out.println("      |        |");
+            System.out.println("      |        |");
+            System.out.println("      |       ---");
+            System.out.println("      |      |___|");
+            System.out.println("      |");
+            System.out.println("      |");
+            System.out.println("______|_____");
         }
         if (gissning == 6) {
             System.out.println("Fel gissning, du har 1 försök kvar");
+            System.out.println("      __________");
+            System.out.println("      |        |");
+            System.out.println("      |        |");
+            System.out.println("      |       ---");
+            System.out.println("      |      |___|");
+            System.out.println("      |       /|\\");
+            System.out.println("      |");
+            System.out.println("______|_____");
         }
         if (gissning == 7) {
             System.out.println("GAME OVER! Ordet var " + ord);
+            System.out.println("      __________");
+            System.out.println("      |        |");
+            System.out.println("      |        |");
+            System.out.println("      |       ---");
+            System.out.println("      |      |___|");
+            System.out.println("      |       /|\\");
+            System.out.println("      |        /\\");
+            System.out.println("______|_____");
         }
     }
 }
