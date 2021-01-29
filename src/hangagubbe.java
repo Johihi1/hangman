@@ -117,7 +117,7 @@ Antal gissningar
             System.out.println("      |       ---");
             System.out.println("      |      |___|");
             System.out.println("      |       /|\\");
-            System.out.println("      |        /\\");
+            System.out.println("      |       / \\");
             System.out.println("______|_____");
         }
     }
