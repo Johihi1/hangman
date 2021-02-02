@@ -52,11 +52,11 @@ Antal gissningar
 */
     public static void antalgissningar() {
         if (gissning == 1) {
-            System.out.println("Fel gissning, du har 6 försök kvar");
             System.out.println("____________");
+            System.out.println("Fel gissning, du har 6 försök kvar");
         }
         if (gissning == 2) {
-            System.out.println("Fel gissning, du har 5 försök kvar");
+            System.out.println("      |");
             System.out.println("      |");
             System.out.println("      |");
             System.out.println("      |");
@@ -64,9 +64,9 @@ Antal gissningar
             System.out.println("      |");
             System.out.println("      |");
             System.out.println("______|_____");
+            System.out.println("Fel gissning, du har 5 försök kvar");
         }
         if (gissning == 3) {
-            System.out.println("Fel gissning, du har 4 försök kvar");
             System.out.println("      __________");
             System.out.println("      |");
             System.out.println("      |");
@@ -74,10 +74,11 @@ Antal gissningar
             System.out.println("      |");
             System.out.println("      |");
             System.out.println("      |");
+            System.out.println("      |");
             System.out.println("______|_____");
+            System.out.println("Fel gissning, du har 4 försök kvar");
         }
         if (gissning == 4) {
-            System.out.println("Fel gissning, du har 3 försök kvar");
             System.out.println("      __________");
             System.out.println("      |        |");
             System.out.println("      |        |");
@@ -85,40 +86,45 @@ Antal gissningar
             System.out.println("      |");
             System.out.println("      |");
             System.out.println("      |");
+            System.out.println("      |");
             System.out.println("______|_____");
+            System.out.println("Fel gissning, du har 3 försök kvar");
         }
         if (gissning == 5) {
-            System.out.println("Fel gissning, du har 2 försök kvar");
             System.out.println("      __________");
             System.out.println("      |        |");
             System.out.println("      |        |");
             System.out.println("      |       ---");
-            System.out.println("      |      |___|");
+            System.out.println("      |      |0 0|");
+            System.out.println("      |      \\__/");
             System.out.println("      |");
             System.out.println("      |");
             System.out.println("______|_____");
+            System.out.println("Fel gissning, du har 2 försök kvar");
         }
         if (gissning == 6) {
-            System.out.println("Fel gissning, du har 1 försök kvar");
             System.out.println("      __________");
             System.out.println("      |        |");
             System.out.println("      |        |");
             System.out.println("      |       ---");
-            System.out.println("      |      |___|");
+            System.out.println("      |      |0 0|");
+            System.out.println("      |      \\__/");
             System.out.println("      |       /|\\");
             System.out.println("      |");
             System.out.println("______|_____");
+            System.out.println("Fel gissning, du har 1 försök kvar");
         }
         if (gissning == 7) {
-            System.out.println("GAME OVER! Ordet var " + ord);
             System.out.println("      __________");
             System.out.println("      |        |");
             System.out.println("      |        |");
             System.out.println("      |       ---");
-            System.out.println("      |      |___|");
+            System.out.println("      |      |0 0|");
+            System.out.println("      |      \\__/");
             System.out.println("      |       /|\\");
             System.out.println("      |       / \\");
             System.out.println("______|_____");
+            System.out.println("GAME OVER! Ordet var " + ord);
         }
     }
 }
